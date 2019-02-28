@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 公用*/
+.comWidth{width:1000px;margin-left: auto;margin-right: auto;}
+.leftArea{float: left;}
+.rightArea{float: right;}
+
+/*topBar*/
+.topBar{height: 31px;background-color: #F7F7F7;line-height: 31px;}
+.collection{background:url(../images/icon/collection.jpg) left center 
+no-repeat; padding-left: 19px;font-weight: bold;} /*收藏图标 x轴在左侧，y轴在右侧，并且不重复*/
+.topBar a:hover{color: red}
+
+/*logoBar*/
+.logoBar{height: 85px;background-color: #1D7AD9;}
+.logo{padding-left: 41px;padding-right: 13px;}
+
+/*search*/
+.search_box{width: 430px;padding-top: 23px;padding-left: 185px;}
+.search_text{width:350px;height: 35px;line-height: 35px\9/*css hack  \9代表所有的ie浏览器*/;background-color: #FFF;padding: 0 5px;}
+.search_btn{width: 70px;height: 35px;font-size: 14px;font-family: 
+"Microsoft YaHei","微软雅黑";background-color: #FF8C00;color: #FFF}
+
+/*购物车*/
+
+.shopCar{width: 145px;height: 35px;background-color: #FF8C00;margin-top: 23px;font: 14px/35px  "Microsoft YaHei","微软雅黑";color: #FFF;/*控制文字的属性，添加在父类中，可以被子类继承*/ margin-right: 59px;}
+.shopText{height:100%;width: 87px;border-right: #E27A00 solid 1px;background: url(../images/icon/shopIcon.jpg) 10px center no-repeat;text-indent: 40px;/*首行缩进*/} 
+.shopNum{width: 27px;height: 35px;border-left: #FF9C01 solid 1px;background: url(../images/icon/sj.jpg) 33px center no-repeat;text-align: right; padding-right: 29px;}
+
+/*导航navBox*/
+.navBox{height: 35px;background-color: #1369C0;color: #FFF;}
+.shopClass{width: 190px;position: relative;}
+.shopClass h3{line-height: 35px;text-align: center;}
+.shopClass i{width: 11px;height: 7px;background: url(../images/icon/down.jpg) left center no-repeat;display: inline-block;/*内嵌不可以设置宽度和高度，设置了inline-block属性的元素既拥有了block元素可以设置width和height的特性，又保持了inline元素不换行的特性。*/ margin-left: 11px;}
+
+.nav,.shopClass{font-family: "Microsoft YaHei","微软雅黑";}
+.nav{line-height:35px; }
+.nav li{float: left;}
+.nav a{height: 35px;display: inline-block;padding: 0 35px;color: #FFF}
+.nav .active{background-color: #4593FD;}
+
+/*商品弹出列表*/
+.shopClass_item .b{font:14px/1 "Microsoft YaHei","微软雅黑";}
+.shopClass_show{background-color: #4593FD; position: absolute ;left: 0;top: 35px;width: 100%;}
+.shopClass_item a{color: #FFF;}
+.shopClass_item{padding:14px 10px; border-bottom: #3487F2;border-top: #5AA1FE solid 1px;}
+.shopClass_item dt{height: 22px;background: url(../images/icon/shop_sj.png) right center no-repeat;}
+.shopClass_item .aLink{width: 48px;height: 20px;background: url(../images/icon/aLink_bg.png)
+left center no-repeat;display: inline-block; text-align: center;line-height: 20px;text-decoration: underline;} 
+
+/*弹出的菜单*/
+.shopClass_list{width: 568px;height: 378px;border: #CCC solid 1px;position: absolute;left: 190px;top: 35px;}
+.shopList_item dt{color: #4B87D9;font-weight: bold; height: 14px;}
+.shopList_item dd{padding-left: 68px;margin-top: -14px;}
+
+
+
+
+
+
+
+
