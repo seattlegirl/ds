@@ -8,9 +8,9 @@ input,select,textarea{outline:none;border:none;background:none;}
 textarea{resize:none;}
 a{text-decoration:none; color: #656565;}
 
-/*清浮动*/
-.clearfix:after{content:"";*display:block;*clear:both;}
-.clearfix{zoom:1;}
+/*清浮动   float是魔鬼，会影响其他相邻元素；但是clear是小白，其只会影响自身，不会对其他相邻元素造成影响！*/
+.clearfix:after{content:"";display:block;clear:both;}/*==for FF/chrome/opera/IE8==*/
+.clearfix{zoom:1;} /*==for IE6/7 Maxthon2==*/
 
 
 /*元素的水平方向浮动，意味着元素只能左右移动而不能上下移动。
