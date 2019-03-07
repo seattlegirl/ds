@@ -52,7 +52,7 @@
 						</ul>
 					</div>
 					</li>
-					<li><span class="shopping_list_text"><em>*</em>详细址：</span><input type="text" value="最多输入26个汉字" class="input input_big"></li>
+					<li><span class="shopping_list_text"><em>*</em>详细地址：</span><input type="text" value="最多输入26个汉字" class="input input_big"></li>
 					<li><span class="shopping_list_text"><em>*</em>收货人：</span><input type="text" value="最多10个" class="input"></li>
 					<li><span class="shopping_list_text"><em>*</em>手机：</span><input type="text" value="如13452547896" class="input">&nbsp;或固定电话：<input type="text" value="区号" class="input input_sm"><span class="jian">-</span><input type="text" value="电话号码" class="input input_mid"><span class="jian">-</span><input type="text" value="分机号（可选）" class="input input_mid"></li>
 					<li><input type="button" value="确认收货地址" class="affirm"></li>
@@ -67,6 +67,101 @@
 					<li><input type="radio" class="radio" id="r1"><label for="r1">微信支付</label><img src="images/weichat.jpg" alt="#">用微信扫一扫就能支付！</li>
 					<li><input type="radio" class="radio" id="r2"><label for="r2">微信支付</label>用微信扫一扫就能支付！</li>
 				</ul>
+			</div>
+		</div>
+		<div class="hr_25"></div>
+		<div class="shopping_item">
+			<h3 class="shopping_tit">发票信息</h3>
+			<div class="shopping_cont padding_shop">
+				<input type="checkbox">需要发票
+				<ul class="shopping_list clearfix">
+					<li><span class="shopping_list_text"><em>*</em>发票类型：</span>
+						<div class="select">
+						<h3>商业零售发票</h3><span></span>
+						<ul class="show_select">
+							<li>上帝</li>
+							<li>五道口</li>
+							<li>五道口</li>
+							<li>上帝</li>
+						</ul>
+					</div>
+					</li>
+					<li><span class="shopping_list_text"><em>*</em>发票抬头：</span>
+						<div class="select">
+						<h3>个人</h3><span></span>
+						<ul class="show_select">
+							<li>上帝</li>
+							<li>五道口</li>
+							<li>五道口</li>
+							<li>上帝</li>
+						</ul>
+					</div>
+					<input type="text" value="阿斯顿" class="input input_mid">
+					</li>
+					<span class="invoice_affirm"><li><input type="button" value="保存" class="affirm_blue"></li></span>
+					<span class="invoice_cancle"><li><input type="button" value="取消" class="cancle"></li></span>
+				</ul>
+			</div>
+		</div>
+		<div class="hr_25"></div>
+		<div class="shopping_item">
+			<h3 class="shopping_tit">送货清单<a href="#" class="backCar">返回购物车修改</a></h3>
+			<div class="shopping_cont pd_10">
+				<div class="cart_inner">
+					<div class="cart_head clearfix">
+						<div class="cart_item t_name">商品名称</div>
+						<div class="cart_item t_price">单价</div>
+						<div class="cart_item t_return">返现</div>
+						<div class="cart_item t_num">数量</div>
+						<div class="cart_item t_subtotal">小计</div>
+					</div>
+					<div class="cart_cont clearfix">
+						<div class="cart_item t_name">
+							<div class="cart_shopInfo clearfix">
+								<img  src="images/bingxiang.jpg" alt="#">
+								<div class="cart_shopInfo_cont">
+									<p class="cart_link"><a href="#">Hisense 海信 BCD-202D 202升 三门冰箱（银色）</a></p>
+									<p class="cart_info">[赠品] 保鲜盒，抽真空保鲜盒-海信冰洗赠品</p>
+								</div>
+							</div>
+						</div>
+						<div class="cart_item t_price">$1459.00</div>
+						<div class="cart_item t_return">$0.00</div>
+						<div class="cart_item t_num">1</div>
+						<div class="cart_item t_subtotal t_red">$1459.00</div>
+					</div>
+					<div class="cart_message">
+						若您对包裹有特殊要求，请在此留言
+					</div>
+					<div class="cart_prompt">
+						<i class="cart_prompt_icon"></i>抱歉，以下商品暂时不能购买，已帮您自动在本次结算中提出并扣减对应金额，您可以先购买其他商品。
+					</div>
+					<div class="cart_cont cart_no_border clearfix">
+						<div class="cart_item t_name">
+							<div class="cart_shopInfo clearfix">
+								<img  src="images/qingfeng.jpg" alt="#">
+								<div class="cart_shopInfo_cont">
+									<p class="cart_link"><a href="#">清风 欧院系列 清香型 100抽3...</a></p>
+									<p class="cart_info">数量：1件</p>
+									<p class="cart_info">￥4.90（无货）</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="shopping_item">
+			<h3 class="shopping_tit">订单结算</h3>
+			<div class="shopping_cont padding_shop clearfix">
+				<div class="cart_count fr"><!--设置了浮动之后，父级一定要清浮动-->
+					<div class="cart_rmb">
+						<i>总计：</i><span>$1459.000000000000</span>
+					</div>
+					<div class="cart_btnBox">
+						<input type="button" class="cart_btn" value="提交订单">
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
